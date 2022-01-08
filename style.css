@@ -4,6 +4,9 @@ html {
   font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
 }
 
+*{
+  box-sizing: border-box}
+
 body {
   margin: 0;
   background-color: rgb(240, 240, 240);
@@ -16,6 +19,7 @@ header {
   align-items: center;
   background-color: rgb(255, 255, 255);
   padding-inline: 1rem;
+  width: 100%;
 }
 
 header a {
